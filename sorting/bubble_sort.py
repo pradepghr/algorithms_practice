@@ -1,7 +1,9 @@
-# In bubble sort,  it compares adjacent items and exchanges those that are out of order
-# In list of n elements, there are n-1 passes
-# A bubble sort can be modified to stop early if it finds that the list has become sorted.(done with 'switch' in example)
-# has O(n^2) comparisons
+"""
+In bubble sort,  it compares adjacent items and exchanges those that are out of order.
+In list of n elements, there are n-1 passes.
+A bubble sort can be modified to stop early if it finds that the list has become sorted.(done with 'switch' in example).
+Algorithm has O(n^2) comparisons.
+"""
 
 
 def bubble_sort(l):
