@@ -3,6 +3,7 @@ In bubble sort,  it compares adjacent items and exchanges those that are out of 
 In list of n elements, there are n-1 passes.
 A bubble sort can be modified to stop early if it finds that the list has become sorted.(done with 'switch' in example).
 Algorithm has O(n^2) comparisons.
+Bubble sort can be practical if the input is in mostly sorted order with some out-of-order elements nearly in position.
 """
 
 

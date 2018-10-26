@@ -1,4 +1,9 @@
-# Time Complexity: O(n*2)
+"""
+When people manually sort cards in a bridge hand, most use a method that is similar to insertion sort.
+Time Complexity: O(n*2)
+Stable; i.e., does not change the relative order of elements with equal keys
+"""
+
 def insertion_sort(l):
     m = len(l)
     i = 0
